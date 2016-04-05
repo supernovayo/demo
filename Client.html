@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>中国大学</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/Client.css"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+<!--头部-->
+<div class="header clearfix">
+    <div class="w">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png"/>
+            </a>
+        </h1>
+        <ul>
+            <li><a href="course.html">课程</a></li>
+            <li><a href="school.html">学校</a></li>
+            <li><a class="nav01" href="spco.html">学校云</a></li>
+            <li><a class="nav02" href="client.html">客户端</a></li>
+
+        </ul>
+        <div class="ssbox" id="ssbox">
+            <form action="/search.htm" target="_blank" id="sbox">
+                <div class="sstb" id="sstb" href="javascript:void(0)" onclick="window.location='http://www.baidu.com'"></div>
+                <label class="sswz" for="txt"  id="message">搜索感兴趣的课程</label>
+                <input class="ssk" value="" type="text"  id="txt">
+            </form>
+        </div>
+        <div class="login">
+            <a href="#">登录</a>
+            <span >&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="#">注册</a>
+        </div>
+    </div>
+</div>
+<div class="cl"></div>
+<div class="tb">
+<div class="tbanner"></div>
+</div>
+<!--中间-->
+<div class="centre w">
+    <div class="left"></div>
+     <div class="right">
+        <h2>名师名校 优质课程</h2>
+        <p>985高校开设，涵盖基础科学、文学艺术、哲学历史、 经管法学、工程技术、农林医药等数百门课程</p>
+     </div>
+</div>
+<div class="zhongw">
+        <div class="w">
+            <div class="wleft">
+                 <h3>签名证书 权威认证</h3>
+                 <p>完成课程学习可获得学校讲师签名的证书证书现已获得猎聘网、Linkedin（领英）、周伯通招聘等求职招聘渠道的认可</p>
+             </div>
+            <div class="wright"></div>
+        </div>
+</div>
+<div class="xiaw">
+    <div class="w">
+        <div class="xleft"></div>
+        <div class="xright">
+            <h4>互动课堂 随时随地</h4>
+            <p>看视频、做测验、交作业，与同学老师交流互动,课件下载、课程通知，给你最贴心的学习体验</p>
+        </div>
+    </div>
+</div>
+<div class="cl"></div>
+<div class="rabot">
+    <img src="images/6630213445164427082.png"  width="108px" alt="扫码下载官方App"/>
+</div>
+<!--底部-->
+<div class="foot clearfix">
+    <div class="w">
+        <div class="foot-l fl">
+            <a href="#"><img src="images/logo4.png" alt=""/></a>
+            <p>由高教社联手网易推出，让每一个有提升愿望的用户能够学到中国知名高校的课程，并获得认证。</p>
+            <p class="foot-lp">©2015 icourse163.org 粤B2-20090191-26icourses.cn
+                京ICP备12020869号-2 京公网安备110102000459-2</p>
+        </div>
+        <div class="foot-c">
+            <h1>
+                关于我们
+            </h1>
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">意见反馈</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">学校云</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">法律条款</a></li>
+            </ul>
+        </div>
+        <div class="foot-r">
+            <h1>
+                关注我们
+            </h1>
+        <span>
+            <a href=""><img src="images/weibo.jpg" alt=""/></a>
+            <a href=""><img src="images/weixin.jpg" alt=""/></a>
+        </span>
+        </div>
+    </div>
+</div>
+<script>
+    var msg = document.getElementById("message");
+    var txt = document.getElementById("txt");
+    var ssbox = document.getElementById("ssbox");
+    var sstb = document.getElementById("sstb");
+    txt.onfocus = function(){
+        msg.style.display = "none";
+        txt.style.backgroundColor= "white";
+        sstb.style.backgroundColor= "white";
+
+    }
+    txt.onblur = function(){
+        if(this.value == ""){
+            msg.style.display = "block";
+            txt.style.backgroundColor= "#EEEEEE";
+            sstb.style.backgroundColor= "#EEE";
+        }
+    }
+</script>
+</body>
+</html>
+</body>
+</html>

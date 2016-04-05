@@ -1,0 +1,286 @@
+@charset "UTF-8";
+* {margin:0;padding:0; }
+body{
+    font-family: "Microsoft YaHei","simsun";
+}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+.cl{clear: both;}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /!*IE/7/6*!/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+.header{
+    width: 100%;
+    height:90px;
+    background-color: #2E323E;
+}
+.w{
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .w h1{
+    padding-top: 27px;
+    float: left;
+}
+.header .w ul{
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+}
+.header .w ul li{
+    float: left;
+    font-size: 18px;
+
+}
+.header .w ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding:33px 30px;
+    display: block;
+}
+
+.header .w ul li a.nav01{
+    background:url(../images/nav01.jpg) no-repeat;
+    padding-left:45px;
+    padding-right:15px;
+}
+.header .w ul li a.nav02{
+    background:url(../images/nav02.jpg) no-repeat;
+}
+/*.header .w .login{
+    float: right;
+    padding-top: 32px;
+}
+.header .w .login a,span{
+    text-decoration: none;
+    font-size:16px;
+    color: #CCCCCC;
+}*/
+
+.tb{
+    background-color: #89B901;
+}
+.tb .tbanner{
+    background:url(../images/top.jpg)no-repeat center center;
+    height: 500px;
+}
+.centre{
+    padding:100px 0;
+    height: 300px;
+}
+.w .left{
+    width: 410px;
+    height: 290px;
+    background:url(../images/64.jpg)no-repeat ;
+    float: left;
+    margin-left: 150px;
+}
+.w .right{
+    width: 420px;
+    float: left;
+    padding:50px 0 0 120px;
+}
+.w .right h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.w .right p{
+    height: 32px;
+    line-height:32px;
+    font-size: 18px;
+}
+.zhongw{
+    height: 460px;
+    background-color:#F8F8F8;
+}
+.zhongw .w{
+    padding:100px 0;
+}
+.wleft{
+    float: left;
+    width: 360px;
+    padding:50px 0 0 150px;
+}
+.wleft h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+.wleft p{
+   font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+
+}
+.wright{
+    float: left;
+    width: 425px;
+    height: 266px;
+    background:url(../images/6630248629536850737.png)no-repeat;
+    margin-left: 160px;
+}
+.xiaw .w{
+    padding: 100px 0;
+    height: 380px;
+}
+.xiaw .xleft{
+    float: left;
+    background:url(../images/66.jpg)no-repeat;
+    width: 453px;
+    height: 273px;
+    margin-left: 150px;
+}
+.xiaw .xright{
+    float: left;
+    width: 400px;
+    padding:50px 100px;
+}
+.xiaw .xright h4{
+    font-size:30px;
+    margin-bottom: 30px;
+
+}
+.xiaw .xright p{
+    font-size: 18px;
+    height: 32px;
+    line-height:32px;
+}
+.rabot{
+    position: fixed;
+    right: 100px;
+    bottom:70px;
+    width: 162px;
+    height: 220px;
+    background:url(../images/1.png)no-repeat;
+    padding-top:70px ;
+    padding-left: 12px;
+}
+
+/*/!*底部*!/*/
+.foot{
+    height: 170px;
+    width: 100%;
+    background-color: #333333;
+    padding-top: 34px;
+}
+.foot-l{
+    width:320px;
+    height: 120px;
+    float: left;
+    margin-right:250px;
+}
+.foot-l p{
+    padding-top:25px ;
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+.foot-l .foot-lp{
+    padding-top:10px ;
+}
+.foot-c{
+    width: 455px;
+    height: auto;
+    float: left;
+}
+.foot-c h1,.foot-r h1{
+    font-size: 18px;
+    color: #CCCCCC;
+}
+.foot-c ul{
+    list-style-type: none;
+    float: left;
+}
+.foot-c ul li{
+    padding-right:53px;
+    padding-top: 15px;
+}
+.foot-c ul li a{
+    font-size: 14px;
+}
+.foot-r{
+    float: right;
+    width: 130px;
+    height: auto;
+}
+.foot-r span a{
+    padding-top: 24px;
+    float: left;
+}

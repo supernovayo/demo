@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+	margin:0;padding:0;
+}
+body{
+	background-color: #EDEDED;
+	height: 100%;
+}
+ul{
+	list-style: none;
+}
+/*版心*/
+.core{
+	width: 1210px;
+	margin:0 auto;
+	height: 100%;
+}
+.bodyPage{
+	margin-bottom: 74px;
+}
+
+.schoolUp{
+	/*background: #DCDCDC;*/
+	border-bottom: 1px solid #CCC;
+	margin-top: 72px;
+	position: relative;
+}
+.schoolUp h1{
+	font:40px "微软雅黑";
+	line-height: 78px;
+}
+.greenLine{
+	width: 124px;
+	height: 4px;
+	background-color: #5FCE17;
+	position: absolute;
+	top:76px;
+}
+.school_pic{
+	margin-top:27px;
+}
+.school_pic li{
+	width: 284px;
+	height: 144px;
+	background-color: #fff;
+	float: left;
+	margin: 8px;
+	border: 1px solid #DDDDDD;
+}
+.school_pic li img{
+	margin-top: 42px;
+	margin-left: 60px;
+}
+
+
+
+
+
+
+
+
