@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>中国大学</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/school.css"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script src="jQuery/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div class="header clearfix">
+    <div class="w">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png"/>
+            </a>
+        </h1>
+        <ul>
+            <li><a href="course.html">课程</a></li>
+            <li><a href="school.html">学校</a></li>
+            <li><a class="nav01" href="spco.html">学校云</a></li>
+            <li><a class="nav02" href="client.html">客户端</a></li>
+
+        </ul>
+        <div class="ssbox" id="ssbox">
+            <form action="/search.htm" target="_blank" id="sbox">
+                <div class="sstb" id="sstb" href="javascript:void(0)" onclick="window.location='http://www.baidu.com'"></div>
+                <label class="sswz" for="txt"  id="message">搜索感兴趣的课程</label>
+                <input class="ssk" value="" type="text"  id="txt">
+            </form>
+        </div>
+        <div class="login">
+            <a href="#">登录</a>
+            <span >&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <a href="#">注册</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="bodyPage clearfix">
+        <div class="schoolUp">
+            <div class="core">
+                <h1>全部学校</h1>
+                <div class="greenLine"></div>
+            </div>
+        </div>
+
+        <div class="school_pic core" id="school_pic">
+            <script>
+            $(function(){
+                $("#school_pic").append('<ul id="bodyPage_ul"></ul>');
+                for(var i=1;i<=55;i++){
+                    console.log(i);
+                    if(i<10){
+                        $("#bodyPage_ul").append('<li><img src="images/a_00'+i+'.png"></li>');
+                    }else{
+                        $("#bodyPage_ul").append('<li><img src="images/a_0'+i+'.png"></li>');
+                    }
+                    
+                }
+                var msg = document.getElementById("message");
+                var txt = document.getElementById("txt");
+                var ssbox = document.getElementById("ssbox");
+                var sstb = document.getElementById("sstb");
+                txt.onfocus = function(){
+                    msg.style.display = "none";
+                    txt.style.backgroundColor= "white";
+                    sstb.style.backgroundColor= "white";
+
+                }
+                txt.onblur = function(){
+                    if(this.value == ""){
+                        msg.style.display = "block";
+                        txt.style.backgroundColor= "#EEEEEE";
+                        sstb.style.backgroundColor= "#EEE";
+                    }
+                }
+            })
+        </script>
+        </div>
+        
+</div>
+
+<div class="foot clearfix">
+    <div class="w">
+    <div class="foot-l fl">
+        <a href="#"><img src="images/logo4.png" alt=""/></a>
+        <p>由高教社联手网易推出，让每一个有提升愿望的用户能够学到中国知名高校的课程，并获得认证。</p>
+        <p class="foot-lp">©2015 icourse163.org 粤B2-20090191-26icourses.cn
+            京ICP备12020869号-2 京公网安备110102000459-2</p>
+    </div>
+    <div class="foot-c">
+        <h1>
+            关于我们
+        </h1>
+        <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">意见反馈</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">学校云</a></li>
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">法律条款</a></li>
+        </ul>
+    </div>
+    <div class="foot-r">
+        <h1>
+            关注我们
+        </h1>
+        <span>
+            <a href=""><img src="images/weibo.jpg" alt=""/></a>
+            <a href=""><img src="images/weixin.jpg" alt=""/></a>
+        </span>
+
+    </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+* {margin:0;padding:0; }
+body{
+    font-family: "Microsoft YaHei";
+}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "ËÎÌå";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/*·ÀÖ¹ÍÏ¶¯*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  È¥µôÍ¼Æ¬µÍ²âÄ¬ÈÏµÄ3ÏñËØ¿Õ°×·ìÏ¶*/
+table {
+    border-collapse: collapse;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+.header{
+    width: 100%;
+    height:90px;
+    background-color: #2E323E;
+}
+.w{
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .w h1{
+    padding-top: 27px;
+    float: left;
+}
+.header .w ul{
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+}
+.header .w ul li{
+    float: left;
+    font-size: 18px;
+
+}
+.header .w ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding:33px 30px;
+    display: block;
+}
+
+.header .w ul li a.nav01{
+    background:url(../images/nav01.jpg) no-repeat;
+    padding-left:45px;
+    padding-right:15px;
+}
+.header .w ul li a.nav02{
+    background:url(../images/nav02.jpg) no-repeat;
+}
+.header .w .login{
+    float: right;
+}
+.header .w .login a,span{
+    text-decoration: none;
+    font-size:16px;
+    color: #CCCCCC;
+}
+.foot{
+    height: 170px;
+    width: 100%;
+    background-color: #333333;
+    padding-top: 34px;
+}
+.foot-l{
+    width:320px;
+    height: 120px;
+    float: left;
+    margin-right:250px;
+}
+.foot-l p{
+    padding-top:25px ;
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+.foot-l .foot-lp{
+    padding-top:10px ;
+}
+.foot-c{
+    width: 455px;
+    height: auto;
+    float: left;
+}
+.foot-c h1,.foot-r h1{
+    font-size: 18px;
+    color: #CCCCCC;
+}
+.foot-c ul{
+    list-style-type: none;
+    float: left;
+}
+.foot-c ul li{
+    padding-right:53px;
+    padding-top: 15px;
+}
+.foot-c ul li a{
+    font-size: 14px;
+}
+.foot-r{
+    float: right;
+    width: 130px;
+    height: auto;
+}
+.foot-r span a{
+    padding-top: 24px;
+    float: left;
+}
+.ssbox{
+    width: 188px;
+    height: 28px;
+    padding: 0 6px;
+    border: 1px solid ;
+    position: relative;
+    border-radius: 5px;
+    top: 30px;
+    left: 100px;
+    overflow: hidden;
+    background-color: #EEEEEE;
+}
+.sstb{
+    left: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url(../images/sstb.png)no-repeat scroll top left;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+.sswz{
+    top: 6px;
+    left: 40px;
+    position: absolute;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+.ssk{
+    margin-left:24px ;
+    height: 30px;
+    top: 1px;
+    border:  1px solid #EEEEEE;
+    border-left:#fff;
+    outline-style: none;
+    font-size: 22px;
+    background-color: #EEEEEE;
+}
+.dnone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-180px;
+    margin-left: -325px;
+    
+    display: none;
+}
+.login-black{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0,0,0,0.6);
+    z-index: 999;
+    display: none;
+}
+.footlogin span.loginspan{
+    font-size: 18px;
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}

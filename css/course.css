@@ -1,0 +1,182 @@
+.content-c{
+    background-color:#EEEEEE;
+    padding-top: 30px;
+}
+.contentl{
+    float: left;
+    width: 225px;
+    height: auto;
+}
+ .contentr{
+    float: right;
+}
+/*课程列表*/
+.kclis {
+    height: 356px;
+    border:1px solid #EEEEEE;
+}
+/*课程列表li设置*/
+.kclis li {
+    width: 223px;
+    height: 51px;
+    line-height: 50px;
+    border:1px solid #E5E5E5;
+    border-bottom:0;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+ul li.lastli{
+    border-bottom:1px solid #EEEEEE;
+}
+/*第一个li的颜色*/
+.kclis h3 {
+    position: static;
+    font-weight: normal;
+    float: left;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.content{
+    position: relative;
+}
+.kclis span {
+    display: block;
+    color: #99A5C3;
+}
+.current h3 a,.current span{
+    background-color: #13A654;
+    color: #fff;
+}
+/*左侧图片开始*/
+.zctp {
+    height: 261px;
+    width: 225px;
+}
+.zctp,.pic2, .pic3 {
+    overflow: hidden;
+    width: 100%;
+    margin-top:10px;
+}
+.tj {
+    height: 64px;
+    line-height: 64px;
+    color: #666;
+}
+.zctp img{
+    margin-top: 10px;
+}
+.picc1{
+    background-color: #FFFFFF;
+    margin-bottom: 9px;
+    padding-bottom: 20px;
+}
+.picc1 h1{
+    padding-top:18px;
+    padding-left:8px;
+    padding-bottom:8px;
+    font-size:16px;
+    color: #66666F;
+    font-weight: normal;
+}
+.picc1 span{
+    font-size: 12px;
+    padding-left:8px;
+    color: #C5C8D5;
+}
+.contentr{
+    width: 960px;
+    height: auto;
+}
+.contentr-top{
+    padding-bottom: 8px;
+}
+.contentr-top h1{
+    float: left;
+    font-size: 16px;
+    color: #333333;
+}
+.contentr-top .sorts{
+    float: right;
+}
+.contentr-top .sorts span{
+    width: 70px;
+    display: block;
+    float: left;
+    line-height: 25px;
+    background-color: #FBFBFB;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+    margin-left: 2px;
+    color: #666666;
+}
+.contentr-top .sorts .sorts-current{
+    background-color: #4EA45B;
+    color: #FFFFFF;
+    border:1px solid  #3A813E;
+}
+.contentr-center{
+    width: 940px;
+    height:150px;
+    background-color: #FFFFFF;
+    margin-bottom: 9px;
+    padding: 10px;
+}
+.contentr-center .contentr-img{
+    float: left;
+    cursor: pointer;
+}
+.contentr-center .contentr-course{
+    width: 660px;
+    height: 150px;
+    float: right;
+    cursor: pointer;
+}
+.contentr-course .contentr-course-top h3{
+    float: left;
+}
+.contentr-course .contentr-course-top span{
+    float: right;
+    font-size: 12px;
+    color: #499E50;
+}
+.contentr-course .course-num{
+    padding-top:25px;
+}
+.contentr-course .course-num span{
+    display: block;
+    width: 75px;
+    height: 12px;
+    padding-left: 18px;
+    margin-top:20px;
+    background: url("../images/conum.jpg") no-repeat;
+    line-height: 10px;
+    font-size: 12px;
+    color: #999999;
+    float: left;
+}
+.contentr-course .course-num a{
+    display: block;
+    font-size: 12px;
+    padding-left:22px ;
+    float: left;
+    margin-top:20px;
+    line-height: 10px;
+    color: #999999;
+}
+.contentr-course .course-num a:hover{
+    color: #499E50;
+}
+.contentr-course .course-content{
+    padding-top:15px;
+}
+.contentr-course .course-content p{
+    font-size: 14px;
+    color: #999999;
+    line-height:25px;
+}
+.contentr .contentsblock{
+    display: block;
+}
+.contents{
+    display: none;
+}
